@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  position: fixed;
+  z-index: 10;
+  margin-top: 20%;
+}
+
+.nav ul {
+  position: absolute;
+}
+
+.nav ul li {
+  color: rgb(182, 89, 12);
+  padding: 10px 0 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: -2.3px;
+  border: 1px solid rgb(182, 89, 12);
+  margin-left: 2px;
+}
+
+.nav ul li:hover {
+  color: orange;
+}
+
+.nav ul li:active {
+  text-decoration: underline;
+  color: brown;
+}
+
+.nav ul li a {
+  margin-right: 5px;
+}
